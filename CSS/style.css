@@ -1543,3 +1543,63 @@ body.modal-open{
 
   font-size:14px;
 }
+@media(max-width:768px){
+
+  body{
+    overflow-x:hidden;
+  }
+
+  .different-grid,
+  .marketing-grid,
+  .project-grid,
+  .work-cards{
+    grid-template-columns:1fr !important;
+  }
+
+  .marketing-stats{
+    grid-template-columns:1fr !important;
+    width:88%;
+    gap:18px;
+  }
+
+  .marketing-stat-card{
+    width:100%;
+    padding:25px 15px;
+  }
+
+  .orbit-container{
+    width:320px;
+    height:320px;
+}
+
+  .orbit-section h2{
+    font-size:42px;
+    text-align:center;
+  }
+
+  .skill{
+    font-size:13px;
+    padding:9px 14px;
+  }
+
+  .project-gallery{
+    grid-template-columns:1fr !important;
+  }
+
+  .metrics-grid{
+    grid-template-columns:1fr 1fr !important;
+  }
+
+  .modal-content{
+    width:92%;
+    padding:22px;
+  }
+
+  .banner-overlay h2{
+    font-size:32px;
+  }
+
+  .project-banner{
+    height:220px;
+  }
+}
