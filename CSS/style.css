@@ -1603,6 +1603,7 @@ body.modal-open{
     height:220px;
   }
 }
+
 @media(max-width:768px){
 
   .navbar{
