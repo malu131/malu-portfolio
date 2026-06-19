@@ -1764,3 +1764,64 @@ html{
   align-self:flex-start;
   margin-top:auto;
 }
+@media(max-width:768px){
+  .scroll-progress{
+    position:fixed;
+    top:0;
+    left:0;
+    height:4px;
+    z-index:999999;
+  }
+
+
+  .avatar-speaking{
+    animation:none;
+  }
+
+  .circle-glow{
+    animation:none;
+  }
+
+  .hero-image img{
+    animation:none;
+  }
+
+  .project-card:hover,
+  .marketing-card:hover,
+  .different-card:hover,
+  .achievement-card:hover,
+  .work-card:hover{
+    transform:none;
+  }
+}
+section{
+  scroll-margin-top:140px;
+}
+@media(max-width:768px){
+
+  body::before{
+    display:none;
+  }
+
+}
+@media(max-width:768px){
+
+  .project-hero{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .project-status{
+    white-space:normal;
+    max-width:100%;
+    padding:8px 14px;
+    font-size:13px;
+    line-height:1.4;
+  }
+
+  .project-hero h2{
+    font-size:28px;
+    line-height:1.2;
+  }
+}
